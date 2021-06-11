@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabCmcActivity">
+    <include
+        android:id="@+id/toolbar_lab_cmc"
+        layout="@layout/submenutoolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_lab_cmc">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/textview_lab_cmc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="50dp"
+                android:fontFamily="@font/mukta_mahee"
+                android:text="@string/string_lab_cmc"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_marginBottom="25dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/textview_link_cmc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_lab_cmc"
+                android:layout_centerHorizontal="true"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/box2"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profil Laboratorium CMC :"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text1"
+                        android:text="http://www.youtube.com/watch?v=ChW2ZDXY65U"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColorLink="@color/white"
+                        android:textSize="12dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

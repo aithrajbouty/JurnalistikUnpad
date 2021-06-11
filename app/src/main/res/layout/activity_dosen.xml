@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DosenActivity">
+<include
+    android:id="@+id/toolbar_dosen"
+    layout="@layout/submenutoolbar"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar_dosen"
+    android:layout_above="@id/horizontalScrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp">
+
+        <ImageView
+            android:id="@+id/image_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/dosen"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/image_dosen">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Prof. H. Deddy Mulyana, MA., Ph.D."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen1"
+                        android:text="https://scholar.google.co.id/citations?user=3otC22UAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Hj. Siti Karlinah, M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen2"
+                        android:text="https://scholar.google.co.id/citations?user=AF0xEdoAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. H. Aceng Abdullah, M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen3"
+                        android:text="https://scholar.google.co.id/citations?user=fKdb1tAAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. H. Dian Wardiana, M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen4"
+                        android:text="https://scholar.google.com/citations?user=7LrfIBwAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Hj. Henny Sri Mulyani, M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen5"
+                        android:text="https://scholar.google.com/citations?user=Mh8KnjwAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Dadang Rahmat Hidayat, S.Sos., SH., M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen6"
+                        android:text="https://scholar.google.co.id/citations?user=5po2Ut4AAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Herlina Agustin, S.Sos., MT."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen7"
+                        android:text="https://scholar.google.com/citations?user=PceApaQAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Hj. Nuryah Asri Sjafirah, S.Sos., M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen8"
+                        android:text="https://scholar.google.co.id/citations?user=oy0V0soAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dandi Supriadi, S.Sos., MS (SUT)"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen9"
+                        android:text="https://scholar.google.co.id/citations?user=dtQ-2K8AAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Pandan Yudhapramesti, S.Sos., MT."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen10"
+                        android:text="https://scholar.google.com/citations?user=mFmKGxoAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Nunik Maharani M.Comn&amp;MediaSt(Mon)."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen11"
+                        android:text="https://scholar.google.co.id/citations?user=h4GTKDgAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Ipit Zulfan, S.Sos., M.I.Kom"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen12"
+                        android:text="https://scholar.google.co.id/citations?user=CnATdEcAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Efi Fadilah, S.Sos., M.Pd."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen13"
+                        android:text="https://scholar.google.co.id/citations?user=18FiUBQAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Maimon Herawati, S.Sos., M.Litt"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen14"
+                        android:text="https://scholar.google.co.id/citations?user=8BP3uvgAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Gumgum Gumilar, S.Sos., M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen15"
+                        android:text="https://scholar.google.co.id/citations?user=ZQCf7_wAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Ika Merdekawati Kusmayadi, S.I.Kom., MA."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen16"
+                        android:text="https://scholar.google.co.id/citations?user=WZMc2ZwAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Sandi Jaya Saputra, S.I.Kom., M.Sn."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen17"
+                        android:text="https://scholar.google.co.id/citations?user=otaQzBAAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Achmad Abdul Basith, S.I.Kom., M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen18"
+                        android:text="https://scholar.google.co.id/citations?user=7ebOA1sAAAAJ&amp;hl=id"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Andika Vinianto Adiputra, S.Sos., MA."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen19"
+                        android:text="https://scholar.google.co.id/citations?user=O67cQ_IAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Abie Besman, S.Sos., M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen20"
+                        android:text="https://scholar.google.co.id/citations?user=gje006wAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Justito Adiprasetio, S.I.Kom., MA."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dosen21"
+                        android:text="https://scholar.google.co.id/citations?user=Y0boO2oAAAAJ&amp;hl=en"
+                        android:autoLink="web"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="?colorSecondary"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="M. Zen Al Faqih, SH., SS., M.I.Kom"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Rinda Aunillah Sirait, S.Sos., M.I.Kom"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Dr. Gema Nusantara, M.Si."
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Cacih Cumiati"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dosen26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Desi Melani"
+                        android:fontFamily="@font/mukta_mahee"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+<HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_back"
+                        app:tint="@color/abu_abu" />
+
+                    <TextView
+                        android:id="@+id/text_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_back"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:lineSpacingExtra="-10dp"
+                        android:text="Kembali ke Kuliah"
+                        android:textAlignment="center"
+                        android:textColor="@color/abu_abu" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_dosen"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/biru_tua">
+
+                    <ImageView
+                        android:id="@+id/icon_dosen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_dosen"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/text_dosen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_dosen"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Dosen"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_kurikulum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_kurikulum"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_kurikulum"
+                        app:tint="@color/biru_tua" />
+
+                    <TextView
+                        android:id="@+id/text_kurikulum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_kurikulum"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Kurikulum"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_fasilitas"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_fasilitas"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_fasilitas"
+                        app:tint="@color/biru_tua" />
+
+                    <TextView
+                        android:id="@+id/text_fasilitas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_fasilitas"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Fasilitas"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_lulusan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_lulusan"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_lulusan"
+                        app:tint="@color/biru_tua" />
+
+                    <TextView
+                        android:id="@+id/text_prospek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_lulusan"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="Lulusan" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_hmj"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_hmj"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_hmj"
+                        app:tint="@color/biru_tua" />
+
+                    <TextView
+                        android:id="@+id/text_hmj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_hmj"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/palanquin_dark"
+                        android:text="HMJ" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

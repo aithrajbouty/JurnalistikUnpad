@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jurnalistikunpad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JurnalistikUnpad">
+        <activity android:name="com.example.jurnalistikunpad.SejarahActivity"></activity>
+        <activity android:name="com.example.jurnalistikunpad.ProspekActivity" />
+        <activity android:name="com.example.jurnalistikunpad.TujuanActivity" />
+        <activity android:name="com.example.jurnalistikunpad.VisimisiActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabGrafikaActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabFotografiActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabHumasActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabCmcActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabPerpusActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabNewsRoomActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabTvActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LabRadioActivity" />
+        <activity android:name="com.example.jurnalistikunpad.DosenActivity" />
+        <activity android:name="com.example.jurnalistikunpad.HmjActivity" />
+        <activity android:name="com.example.jurnalistikunpad.LulusanActivity" />
+        <activity android:name="com.example.jurnalistikunpad.FasilitasActivity" />
+        <activity android:name="com.example.jurnalistikunpad.KurikulumActivity" />
+        <activity android:name="com.example.jurnalistikunpad.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
